@@ -15,8 +15,13 @@ do
   fi
 done
 
+# make necessary directories
+chmod +x make_directories.sh
+sh ./make_directories.sh
+
 # Clean up / implode
 rm README.md
 mv README_TEMPLATE.md README.md
 mv github .github
 rm customize.sh
+rm make_directories.sh
