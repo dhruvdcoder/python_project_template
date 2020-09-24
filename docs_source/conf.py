@@ -13,7 +13,7 @@ extensions = [
     'sphinx.ext.graphviz',
     'sphinx.ext.inheritance_diagram',
     'sphinx.ext.githubpages',
-    'm2r',
+    'm2r','aafigure.sphinxext'
 ]
 source_suffix = ['.rst', '.md']
 # source_suffix = '.rst'
