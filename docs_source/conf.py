@@ -29,3 +29,7 @@ html_baseurl = <<[.custom.project.copyright]>>
 
 # https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html#confval-autoclass_content
 autoclass_content = "both"
+
+# keep raw ascii in all outputs because aafig interprets text differently producing weird
+# svgs
+aafig_format = dict(latex=None, html=None, text=None)
